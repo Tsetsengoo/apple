@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav {
+  background-color: rgba(32, 32, 32, 0.981);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  position: fixed;
+}
+.nav-item {
+  color: rgb(215, 215, 215);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.nav-apple-logo {
+  filter: invert();
+  width: 20px;
+  height: 20px;
+}
+.nav-search-icon {
+  filter: invert();
+  width: 15px;
+  height: 15px;
+}
+.nav-basket-icon {
+  filter: invert();
+  width: 18px;
+  height: 18px;
+}
+
+.new-product {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://www.apple.com/v/home/bs/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_medium.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.new-product-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+.new-product-text1 {
+  color: white;
+  text-align: center;
+}
+.new-product-text1 h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.new-product-text1 h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.new-product-text2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.learn-more-button {
+  background-color: rgb(0, 128, 255);
+  border: none;
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+}
+.buy-button {
+  border: 2px solid rgb(0, 128, 255);
+  color: rgb(0, 128, 255);
+  width: 70px;
+  height: 40px;
+  border-radius: 30px;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+.new-product-text2 h4 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: rgb(157, 157, 157);
+}
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+.learn-more-button:hover {
+  background-color: rgb(49, 152, 255);
+}
+.buy-button:hover {
+  background-color: rgb(0, 128, 255);
+  color: white;
+}
+
+.gradient {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+    rgb(9, 14, 76),
+    rgb(29, 37, 99),
+    rgb(61, 75, 152),
+    rgb(115, 132, 202),
+    rgb(183, 195, 233),
+    rgb(231, 236, 247)
+  );
+}
+.new-product2 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://www.apple.com/v/home/bs/images/heroes/iphone-16/hero_iphone16_avail__euwzls69btea_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.new-product2 h4 {
+  color: black;
+}
+.iwatch {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://www.apple.com/v/home/bs/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_medium.jpg);
+  background-color: rgb(245, 245, 247);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.iwatch-text {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.apple-logo img {
+  width: 45px;
+  height: 45px;
+}
+.apple-watch {
+  display: flex;
+}
+.iwatch-text h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.iwatch-text h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(52, 52, 52);
+}
+.iwatch-text h2 {
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.other-products {
+  display: flex;
+  gap: 20px;
+  padding: 5px 15px;
+}
+.card-product {
+  flex: 1;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.card-product-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  width: 400px;
+  text-align: center;
+}
+.airpod {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.airpod-pro {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/airpods-pro-2/promo_airpods_pro_2_avail__vkitqi3okwie_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-product-content h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 550;
+}
+.card-product-content p {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.macbook-air {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ipad-pro {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-product-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.top {
+  align-items: start;
+}
+.white-text {
+  color: white;
+}
+.card-product-content2 h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 550;
+}
+.card-product-content2 p {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  width: 400px;
+  text-align: center;
+}
+.trade-in {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-image: url(https://www.apple.com/v/home/bs/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.apply-now-button {
+  border: 2px solid rgb(0, 128, 255);
+  color: rgb(0, 128, 255);
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+.apply-now-button:hover {
+  background-color: rgb(0, 128, 255);
+  color: white;
+}
+.get-your-estimate-button {
+  background-color: rgb(0, 128, 255);
+  border: none;
+  color: white;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 170px;
+  height: 40px;
+  border-radius: 30px;
+}
+.get-your-estimate-button:hover {
+  background-color: rgb(49, 152, 255);
+}
+.apple-with-trade {
+  display: flex;
+}
+.apple-logo-card img {
+  width: 40px;
+  height: 40px;
+}
